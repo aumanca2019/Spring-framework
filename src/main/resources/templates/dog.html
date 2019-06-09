@@ -29,8 +29,61 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="cat">Cats</a></li>
-                <li><a href="dogs">Dogs</a></li>
+                <li><a href="dog">Dogs</a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+<div class="container">
+    <div class="starter-template" align="center">
+        <h1>This is our dogs !</h1>
+        <img id="pets" th:src="@{/img/cuteDogs2.png}" align="center" width="460px" height="345px" alt="memorynotfound logo"/>
+        <!--        <h2 th:text="${message}"></h2> &ndash;&gt;-->
+    </div>
+
+    <table width="100%" border="3">
+        <tr bgcolor="red">
+            <th>ID</th>
+            <th>NAME</th>
+            <th>AGE</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Maria Anders</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Francisco Chang</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Roland Mendel</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Helen Bennett</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Yoshi Tannamuri</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Giovanni Rovelli</td>
+            <td>3</td>
+        </tr>
+    </table>
+</div>
+
+<!-- include javascript -->
+<script type="text/javascript" src="webjars/jquery/3.2.1/jquery.min.js/"></script>
+<script type="text/javascript" src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

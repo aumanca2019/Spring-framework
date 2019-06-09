@@ -29,11 +29,11 @@ public class HomeController {
         return "cat";
     }
 
-    @RequestMapping("/dogs")
+    @RequestMapping("/dog")
     public String dogsPage(Model model) {
-        log.info("Spring Boot Thymeleaf Cats Page");
+        log.info("Spring Boot Thymeleaf Dogs Page");
         model.addAttribute("message", message);
-        return "dogs";
+        return "dog";
     }
 
 }
